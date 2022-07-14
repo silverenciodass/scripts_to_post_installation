@@ -9,5 +9,12 @@ cd ~/.pyenv && src/configure && make -C src
 
 cd $HOME
 
+bash_file="$HOME/.bashrc"
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> bash_file
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> bash_file
+echo 'eval "$(pyenv init -)"' >> bash_file
+
+source bash_file
 
 
