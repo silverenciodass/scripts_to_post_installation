@@ -17,4 +17,6 @@ echo 'eval "$(pyenv init -)"' >> bash_file
 
 source bash_file
 
-
+pyenv install -l
+pyenv install 3.10.5
+pyenv global  3.10.5
