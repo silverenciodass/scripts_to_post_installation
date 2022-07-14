@@ -23,3 +23,14 @@ pyenv install -l
 pyenv install 3.10.5
 pyenv global  3.10.5
 
+pip install --upgrade pip
+pip install pipx
+
+
+pipx install ansible
+pipx install ansible-core
+pipx install blue
+pipx install httpie
+pipx install ipython
+pipx install poetry
+pipx install virtualenv
