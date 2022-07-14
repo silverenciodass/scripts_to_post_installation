@@ -44,3 +44,21 @@ asdf install rust  1.62.0
 asdf install sml  110.99
 asdf install terraform  1.2.4
 asdf install vault  1.11.0
+
+asdf global ninja  1.11.0
+asdf global erlang  25.0.2
+asdf global cmake  3.23.2
+asdf global crystal  1.5.0
+asdf global deno  1.23.3
+asdf global dotnet-core  6.0.301
+asdf global elixir  master-otp-24
+asdf global haskell  9.2.3
+asdf global julia  1.7.3
+asdf global kotlin  1.7.10
+asdf global meson  0.63.0
+asdf global nodejs  lts
+asdf global ruby  3.1.2
+asdf global rust  1.62.0
+asdf global sml  110.99
+asdf global terraform  1.2.4
+asdf global vault  1.11.0
